@@ -1,0 +1,99 @@
+/* font-family: 'Pangolin', cursive; subti
+
+font-family: 'Poppins', sans-serif;  header
+
+font-family: 'Ubuntu', sans-serif;  titulo   */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background: url("./images/bg-hero-img.png");
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.5rem 4rem;
+  background-color: transparent;
+  color: white;
+  border-bottom: 0.2rem solid #142c77;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 8rem;
+  height: auto;
+}
+
+.navigation a:hover {
+  color: rgb(152, 184, 255);
+  text-shadow: 0 0 1rem #142c77;
+}
+
+.navigation ul,
+.socials ul {
+  height: 100%;
+  list-style: none;
+
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+}
+
+.socials ul {
+  gap: 0rem;
+}
+
+.icon-socials {
+  cursor: pointer;
+  width: 3rem;
+}
+
+.icon-linkedin:hover {
+  content: url("./images/icons-socials-linkedin-dark.png");
+}
+.icon-facebook:hover {
+  content: url("./images/icons-socials-facebook-dark.png");
+}
+.icon-instagram:hover {
+  content: url("./images/icons-socials-instagram-dark.png");
+}
+
+.home {
+  color: white;
+  text-align: center;
+}
+
+.home-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.home-subtitle {
+  font-family: "Pangolin", cursive;
+  font-size: 2rem;
+}
