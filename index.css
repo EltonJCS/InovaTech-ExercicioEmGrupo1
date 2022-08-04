@@ -13,6 +13,8 @@ font-family: 'Ubuntu', sans-serif;  titulo   */
 body {
   position: relative;
   background: url("./images/bg-hero-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
